@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoRide</title>
+    <link rel="stylesheet" href="select.css">
+</head>
+
+<body>
+
+
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">EcoRide</div>
+            <div class="user-menu">
+                <span id="username-display"></span>
+                <button id="logout-btn">Se déconnecter</button>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Service EcoRide</h1>
+
+        <div class="trip-selection">
+            <div id="service-container" class="hidden"></div>
+            <h2>Choisissez le voyage en covoiturage</h2>
+        </div>
+
+        <form id="quiz-form">
+            <div class="question">
+                <p>Covoiturages Paris-Rennes</p>
+                <label><input type="radio" name="q1" value="Paris-Rennes">Paris-Rennes
+                    De: Paris, 75015 gare Montparnasse",
+                    "A: Rennes, 35000 gare de Rennes ",
+                    "daydepart : vendredi :19h00",
+                    "dayarrivee : vendredi : 22h30",
+                    "time: 03h30", 
+                    "price: 12 credits",
+                    "energy :electrique",
+                    "driving: bon"
+                </label>
+                <label><input type="radio" name="q1" value="Paris-Rennes">Paris-Rennes
+                    De: Paris, 75015 gare Montparnasse",
+      "A: Rennes, 35000 gare de Rennes ",
+      "daydepart : vendredi :O7h00",
+      "dayarrivee : vendredi : 10h30",
+      "time: 03h30", 
+      "price: 10 credits",
+      "energy :essence",
+      "driving: moyen"
+                </label>
+                <label><input type="radio" name="q1" value="Paris-Rennes">Paris-Rennes
+                    De: Paris, 75015 gare Montparnasse",
+                    "A: Rennes, 35000 gare de Rennes ",
+                    "daydepart : samedi :07h00",
+                    "dayarrivee : samedi : 10h30",
+                    "time: 03h30", 
+                    "price: 12 credits",
+                    "energy :electrique",
+                    "driving: bon"
+                </label>
+            </div>
+
+            <div class="question">
+                <p>Covoiturages Paris-Deauville</p>
+                <label><input type="radio" name="q2" value="Paris-Deauville">Paris-Deauville</label>
+                <label><input type="radio" name="q2" value="Paris-Deauville">Paris-Deauville</label>
+                <label><input type="radio" name="q2" value="Paris-Deauville">Paris-Deauville</label>
+            </div>
+            <button type="button" onclick="submitService()">Soumettre</button>
+        </form>
+        <div id="result"></div>
+    </div>
+
+    <div class="timer-container">
+        <div class="progress-bar"></div>
+        <div id="question-container"></div>
+    </div>
+
+    <script src="select.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecoride</title>
+    <link rel="stylesheet" href="select.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Ecoride a</div>
+            <div class="user-menu">
+                <span id="username-display"></span>
+                <button id="logout-btn">Se déconnecter</button>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Ecoride service</h1>
+
+        <div class="energy-selection">
+            <h2>Choisissez le niveau energy</h2>
+            <button class="energy-btn" data-level="electrique">electrique</button>
+            <button class="energy-btn" data-level="nonelectrique">nonelectrique</button>
+        </div>
+        <div id="service-container" class="hidden"></div>
+        <div id="result"></div>
+    </div>
+
+
+
+
+    <script src="select.js"></script>
+</body>
+</html>

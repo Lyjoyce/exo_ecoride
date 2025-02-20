@@ -1,0 +1,132 @@
+.spinner {
+    height: 100%;
+    background: white;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 20;
+    animation: spinner 0.4s linear;
+    visibility: hidden;
+  }
+  .spinner-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid transparent;
+    border-top: 10px solid royalblue;
+    border-bottom: 10px solid darkblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    animation: spinner-border 0.4s linear;
+    z-index: 10;
+    visibility: hidden;
+  }
+  .spinner-center {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: orange;
+  }
+  
+  @keyframes spinner {
+    0% {
+      visibility: visible;
+      opacity: 0.9;
+    }
+    70% {
+      opacity: 0.9;
+    }
+    100% {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+  @keyframes spinner-border {
+    0% {
+      visibility: visible;
+      opacity: 1;
+    }
+    70% {
+      opacity: 1;
+    }
+    100% {
+      transform: rotate(360deg);
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+
+
+body{
+    background-color: royalblue;
+}
+.form-body{
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    background-color:orange;
+    color: black;
+    padding: 20px;
+    box-shadow: 2px 8px 12px black;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+}
+#register-form{
+    display: flex;
+    flex-direction: column;
+}
+label, input{
+    margin-bottom: 10px;
+    background-color: palegoldenrod;
+    color: black;
+    padding: 20px;
+    font-weight: bold;
+}
+button{
+    font-size: large;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 20px;
+    background-color:royalblue;
+    color: white;
+}
+button:hover{
+    color: white;
+    background-color: darkblue;
+}
+a{
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: palegoldenrod;
+    padding: 5px;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: blue;
+    padding: 10px;
+    color: gold;
+}
+@media screen and (max-width: 350px){
+    a{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}

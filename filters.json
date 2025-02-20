@@ -1,7 +1,7 @@
 [
 
     {
-      "covoiturage": [" De: Paris, 75015 gare Montparnasse",
+      "question": [" De: Paris, 75015 gare Montparnasse",
       "A: Rennes, 35000 gare de Rennes ",
       "daydepart : jeudi :19h00",
       "dayarrivee : jeudi : 22h30",
@@ -10,12 +10,12 @@
       "energy :electrique",
       "driving: bon"
       ],
-      "option": ["jeudi", "vendredi", "samedi"],
+      "options": ["jeudi", "vendredi", "samedi"],
       "answer": "jeudi",
       "energy" : "electrique"
     },
     {
-      "covoiturage": ["De: Paris, 75015 gare Montparnasse",
+      "question": ["De: Paris, 75015 gare Montparnasse",
        "A: Deauville, 14200 gare de Deauville-Trouville ",
        "daydepart : vendredi :19h00",
        "dayarrivee : vendredi : 22h30",
@@ -24,12 +24,12 @@
        "energy :electrique",
        "driving: bon"
         ],
-        "option": ["jeudi", "vendredi", "samedi"],
+        "options": ["jeudi", "vendredi", "samedi"],
       "answer": "vendredi",
        "energy" : "electrique"
     },
     {
-      "covoiturage": [" De :Paris, 75015 gare Montparnasse",
+      "question": [" De :Paris, 75015 gare Montparnasse",
       "A: Amboise, 37400 gare de Amboise",
       "daydepart : vendredi :O7h00",
       "dayarrivee : vendredi : 10h30",
@@ -38,7 +38,7 @@
       "energy :electrique",
       "driving: moyen"
       ],
-     "option": ["jeudi", "vendredi", "samedi"],
+     "options": ["jeudi", "vendredi", "samedi"],
     "answer": "vendredi",
      "energy" : "electrique"
   },
@@ -52,7 +52,7 @@
       "energy :electrique",
       "driving: bon"
       ],
-     "option": ["jeudi", "vendredi", "samedi"],
+     "options": ["jeudi", "vendredi", "samedi"],
     "answer": "samedi",
     "energy" : "electrique"
   } ,
@@ -67,7 +67,7 @@
       "energy :electrique",
       "driving: bon"
       ],
-      "option": ["jeudi", "vendredi", "samedi"],
+      "options": ["jeudi", "vendredi", "samedi"],
       "answer": "samedi",
       "energy" : "electrique"
     },
@@ -81,7 +81,7 @@
         "energy :electrique",
         "driving: bon"
         ],
-        "option": ["jeudi", "vendredi", "samedi"],
+        "options": ["jeudi", "vendredi", "samedi"],
       "answer": "samedi",
         "energy" : "electrique"
     },
@@ -95,7 +95,7 @@
       "energy :essence",
       "driving: moyen"
       ],
-      "option": ["jeudi", "vendredi", "samedi"],
+      "options": ["jeudi", "vendredi", "samedi"],
       "answer": "vendredi",
       "energy" : "nonelectrique"
     },
@@ -109,7 +109,7 @@
       "energy :essence",
       "driving: moyen"
       ],
-      "option": ["jeudi", "vendredi", "samedi"],
+      "options": ["jeudi", "vendredi", "samedi"],
       "answer": "jeudi",
      "energy" : "nonelectrique"
     },
@@ -125,7 +125,7 @@
         "energy :essence",
         "driving: bon"
         ],
-       "option": ["jeudi", "vendredi", "samedi"],
+       "options": ["jeudi", "vendredi", "samedi"],
       "answer": "jeudi",
         "energy" : "nonelectrique"
     }

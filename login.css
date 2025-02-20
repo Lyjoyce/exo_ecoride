@@ -1,0 +1,62 @@
+
+.form-body{
+    font-size: large;
+    background-color:orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    background-color:royalblue;
+    color: orange;
+    padding: 20px;
+    box-shadow: 2px 8px 12px orangered;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+}
+#login-form{
+    display: flex;
+    flex-direction: column;
+}
+label, input{
+    margin-bottom: 10px;
+    background-color:palegoldenrod;
+    color: black;
+    padding: 20px;
+    font-weight: bold;
+}
+button{
+    font-size: large;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 20px;
+    background-color:darkblue;
+    color: orange;
+}
+button:hover{
+    background-color:orange;
+    color: darkblue;
+}
+a{
+    text-decoration: none;
+    border-radius: 5px;
+    background-color:palegoldenrod;
+    padding: 5px;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: blue;
+    padding: 10px;
+    color: gold;
+}
+@media screen and (max-width: 400px){
+    a{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}

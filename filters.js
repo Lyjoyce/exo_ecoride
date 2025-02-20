@@ -69,7 +69,7 @@ const URL= "https://cae6ace7-b8ff-4b20-8f36-3095a31d59e3.mock.pstmn.io/api/Filte
 
 async function loadQuestions(energy){
     try{
-        const response = await fetch("filters.json")
+        const response = await fetch("energy.json")
 
         if (!response.ok){
             throw new Error(`Erreur HTTP: ${response.status}`)
@@ -145,6 +145,7 @@ function nextQuestion(){
     currentQuestionIndex++
     showQuestion()
 }
+    */
 // Vérifier si la réponse est correcte
 function checkAnswer(selectAnswer) {
     const currentQuestion = questions[currentQuestionIndex]

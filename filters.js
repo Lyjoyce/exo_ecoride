@@ -65,7 +65,8 @@ let questions = []
 let selectedEnergy = ""
 
 //Chargement 
-const URL= "https://cae6ace7-b8ff-4b20-8f36-3095a31d59e3.mock.pstmn.io/api/Filter"
+const URL = "https://ccf1fac0-355c-4948-9a49-66a89235a16f.mock.pstmn.io/api/FiltersEnergy"
+//const URL= "https://cae6ace7-b8ff-4b20-8f36-3095a31d59e3.mock.pstmn.io/api/Filter"
 
 async function loadQuestions(energy){
     try{
@@ -126,7 +127,7 @@ function showQuestion() {
             showFinalResult()
         }
 }
-/*
+
 //Soumettre le choix
 function submitAnswer(){
     const form = document.getElementById("quiz-form")
@@ -140,12 +141,12 @@ function submitAnswer(){
     checkAnswer(selectAnswer)
     nextQuestion()
 }
-/*
+
 function nextQuestion(){
     currentQuestionIndex++
     showQuestion()
 }
-    */
+    
 // Vérifier si la réponse est correcte
 function checkAnswer(selectAnswer) {
     const currentQuestion = questions[currentQuestionIndex]

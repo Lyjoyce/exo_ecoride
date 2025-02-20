@@ -6,10 +6,11 @@
       "dayarrivee : jeudi : 22h30",
       "time: 03h30", 
       "price: 12 credits",
-      "energy :electrique",
       "driving: bon",
       "note: 4",
-      "places disponibles : 3"
+      "places disponibles : 3",
+      "energy :electrique"
+      
       ],
       "options": ["electrique", "essence"],
       "answer": "electrique",
@@ -22,10 +23,10 @@
        "dayarrivee : vendredi : 22h30",
        "time: 02h30", 
        "price: 8 credits",
-       "energy :electrique",
        "driving: bon",
        "note: 4",
-       "places disponibles : 3"
+       "places disponibles : 3",
+       "energy :electrique"
         ],
         "options": ["electrique", "essence"],
         "answer": "electrique",
@@ -38,10 +39,10 @@
       "dayarrivee : vendredi : 10h30",
       "time: 02h30", 
       "price: 9 credits",
-      "energy :electrique",
       "driving: moyen",
       "note: 3",
-      "places disponibles : 3"
+      "places disponibles : 3",
+      "energy :electrique"
       ],
       "options": ["electrique", "essence"],
       "answer": "electrique",

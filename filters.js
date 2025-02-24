@@ -12,7 +12,7 @@ document.addEventListener("DOMcontentLoaded", function () {
 function checkAuth(){
     const isAuthenticated =localStorage.getItem("isAuthenticated")
     if(isAuthenticated !== "true"){
-        alert("Veuillez vous connecter pour acceder au quiz") 
+        alert("Veuillez vous connecter") 
         window.location.href="login.html"
     }
 }
@@ -99,10 +99,10 @@ function startQuiz() {
 //Afficher les données
 function showQuestion() {
     if(currentQuestionIndex < questions.length) {
-        console.log(questions)
+        //console.log(questions)
         const questionData = questions[currentQuestionIndex]
-        console.log( "question data" + questionData)
-        const questionContainer= document.getElementById("quiz-container")
+        //console.log( "question data" + questionData)
+        const questionContainer= document.getElementById("energy-container")
 
         questionContainer.innerHTML = `
         <div class"question">
@@ -146,7 +146,7 @@ function nextQuestion(){
     currentQuestionIndex++
     showQuestion()
 }
-    
+
 // Vérifier si la réponse est correcte
 function checkAnswer(selectAnswer) {
     const currentQuestion = questions[currentQuestionIndex]
@@ -154,6 +154,7 @@ function checkAnswer(selectAnswer) {
         incrementScore()
     }
 }
+/*
 //Incrémenter le score
 
 let score = 0

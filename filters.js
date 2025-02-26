@@ -60,13 +60,13 @@ document.querySelectorAll(".energy-btn").forEach((btn) =>{
     })
 })
 
-let currentQuestionIndex =0
+let currentQuestionIndex = 0
 let questions = []
 let selectedEnergy = ""
 
 //Chargement 
-const URL = "https://ccf1fac0-355c-4948-9a49-66a89235a16f.mock.pstmn.io/api/FiltersEnergy"
-//const URL= "https://cae6ace7-b8ff-4b20-8f36-3095a31d59e3.mock.pstmn.io/api/Filter"
+//const URL = "https://ccf1fac0-355c-4948-9a49-66a89235a16f.mock.pstmn.io/api/FiltersEnergy"
+
 
 async function loadQuestions(energy){
     try{
@@ -154,7 +154,7 @@ function checkAnswer(selectAnswer) {
         incrementScore()
     }
 }
-/*
+
 //Incrémenter le score
 
 let score = 0
@@ -170,6 +170,7 @@ function showFinalResult() {
     </div>
     `
 }
+/*
 //
 function submitQuiz() {
     calculateScore(function(score) {

@@ -76,7 +76,10 @@ async function loadQuestions(energy){
             throw new Error(`Erreur HTTP: ${response.status}`)
         }
         const allQuestions = await response.json()
-
+    }
+    catch(error){ erreur}
+}
+/*
 //Filtres
         questions= allQuestions.filter((q) => q.energy === energy)
         selectedEnergy = energy
@@ -88,7 +91,7 @@ async function loadQuestions(energy){
         console.error("Erreur lors du chargement des questions", error)
     }
 }
-
+*/
 //Démarrer 
 function startQuiz() {
     document.querySelector(".energy-selection").classList.add("hidden")
@@ -98,7 +101,7 @@ function startQuiz() {
 
 //Afficher les données
 function showQuestion() {
-    if(currentQuestionIndex < questions.length) {
+    if(currentQuestionIndex <= questions.length) {
         //console.log(questions)
         const questionData = questions[currentQuestionIndex]
         //console.log( "question data" + questionData)
@@ -120,7 +123,7 @@ function showQuestion() {
                 `
                 )
             .join("")}
-            <button type="button" onclick="submitAnswer()">Soumettre</button>
+            <button type="button" onclick="submitAnswer()">Suivant</button>
         </form>
         `
         }else{

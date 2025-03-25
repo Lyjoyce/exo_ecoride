@@ -1,143 +1,152 @@
 [
     {
-      "question": [" De: Paris, 75015 gare Montparnasse",
-      "A: Rennes, 35000 gare de Rennes ",
-      "daydepart : jeudi :19h00",
-      "dayarrivee : jeudi : 22h30",
-      "time: 03h30", 
-      "price: 12 credits",
-      "driving: bon",
-      "note: 4",
-      "places disponibles : 3",
-      "energy :electrique"
+      "question": 
+      [" De: Paris, 75015 gare Montparnasse <br>",
+      "A: Rennes, 35000 gare de Rennes <br>",
+      "depart : jeudi :19h00 <br>",
+      "arrivee : jeudi : 22h30 <br>",
+      "duree: 03h30 <br>", 
+      "prix: 12 credits <br>",
+      "energy :electrique <br>",
+      "avis: bon <br>",
+      "note: 4 <br>",
+      "places disponibles : seat1, seat2, seat3 <br>"
       ],
       "options": ["electrique", "essence"],
       "answer": "electrique",
       "energy" : "electrique"
     },
     {
-      "question": ["De: Paris, 75015 gare Montparnasse",
-       "A: Deauville, 14200 gare de Deauville-Trouville ",
-       "daydepart : vendredi :19h00",
-       "dayarrivee : vendredi : 22h30",
-       "time: 02h30", 
-       "price: 8 credits",
-       "driving: bon",
-       "note: 4",
-       "places disponibles : 3",
-       "energy :electrique"
+      "question":
+       ["De: Paris, 75015 gare Montparnasse, <br>",
+       "A: Deauville, 14200 gare de Deauville-Trouville, <br>",
+       "depart : vendredi :19h00 <br>",
+       "arrivee : vendredi : 22h30 <br>",
+       "duree: 02h30 <br>", 
+       "prix: 8 credits <br>",
+       "energy :electrique <br>",
+       "avis: bon <br>",
+       "note: 4 <br>",
+       "places disponibles : seat1, seat2, seat3 <br>"
         ],
         "options": ["electrique", "essence"],
         "answer": "electrique",
         "energy" : "electrique"
     },
     {
-      "question": [" De :Paris, 75015 gare Montparnasse",
-      "A: Amboise, 37400 gare de Amboise",
-      "daydepart : vendredi :O7h00",
-      "dayarrivee : vendredi : 10h30",
-      "time: 02h30", 
-      "price: 9 credits",
-      "driving: moyen",
-      "note: 3",
-      "places disponibles : 3",
-      "energy :electrique"
+      "question": 
+      [" De :Paris, 75015 gare Montparnasse <br>",
+      "A: Amboise, 37400 gare de Amboise <br>",
+      "depart : vendredi :O7h00 <br>",
+      "arrivee : vendredi : 10h30<br>",
+      "duree: 02h30 <br>", 
+      "prix: 9 credits<br>",
+      "energy :electrique<br>",
+      "avis: mauvais<br>",
+      "note: 3<br>",
+      "places disponibles : seat1, seat2, seat3<br>"
       ],
       "options": ["electrique", "essence"],
       "answer": "electrique",
       "energy" : "electrique"
   },
   {
-      "question": [" De :Paris, 75015 gare Montparnasse",
+      "question":
+      [" De :Paris, 75015 gare Montparnasse",
       "A: Amboise, 37400 gare de Amboise",
-      "daydepart : samedi :07h00",
-      "dayarrivee : samedi : 10h30",
-      "time: 02h30", 
-      "price: 9 credits",
+      "depart : samedi :07h00",
+      "arrivee : samedi : 10h30",
+      "duree: 02h30", 
+      "prix: 9 credits",
       "energy :electrique",
-      "driving: bon",
+      "avis: bon",
       "note: 4",
-      "places disponibles : 3"
+      "places disponibles : seat1, seat2, seat3"
       ],
      "options": ["electrique", "essence"],
      "answer": "electrique",
      "energy" : "electrique"
   } ,
     {
-      "question": [" De: Paris, 75015 gare Montparnasse",
+      "question":
+      [" De: Paris, 75015 gare Montparnasse",
       "A: Rennes, 35000 gare de Rennes ",
-      "daydepart : samedi :07h00",
-      "dayarrivee : samedi : 10h30",
-      "time: 03h30", 
-      "price: 12 credits",
+      "depart : samedi :07h00",
+      "arrivee : samedi : 10h30",
+      "duree: 03h30", 
+      "prix: 12 credits",
       "energy :electrique",
-      "driving: bon",
+      "avis: bon",
       "note: 4",
-      "places disponibles : 3"
+      "places disponibles : seat1, seat2, seat3"
       ],
       "options": ["electrique", "essence"],
       "answer": "electrique",
       "energy" : "electrique"
     },
     {
-      "question": ["De: Paris, 75015 gare Montparnasse",
-        "A: Deauville, 14200 gare de Deauville-Trouville ",
-        "daydepart : samedi :07h00",
-        "dayarrivee : samedi : 10h30",
-        "time: 02h30", 
-        "price: 8 credits",
-        "energy :electrique",
-        "driving: bon",
-        "note: 4",
-        "places disponibles : 3"
+      "question": 
+      ["De: Paris, 75015 gare Montparnasse <br>",
+        "A: Deauville, 14200 gare de Deauville-Trouville <br>",
+        "depart : samedi :07h00 <br>",
+        "arrivee : samedi : 10h30 <br>",
+        "duree: 02h30 <br>", 
+        "prix: 8 credits <br>",
+        "energy :electrique <br>",
+        "avis: bon <br>",
+        "note: 4 <br>",
+        "places disponibles : seat1, seat2, seat3 <br>"
         ],
         "options": ["electrique", "essence"],
         "answer": "electrique",
-          "energy" : "electrique"
+        "energy" : "electrique"
     },
     {
-      "question": [" De: Paris, 75015 gare Montparnasse",
+      "question": 
+      [" De: Paris, 75015 gare Montparnasse",
       "A: Rennes, 35000 gare de Rennes ",
-      "daydepart : vendredi :19h00",
-      "dayarrivee : vendredi : 22h30",
-      "time: 03h30", 
-      "price: 10 credits",
+      "depart : vendredi :19h00",
+      "arrivee : vendredi : 22h30",
+      "duree: 03h30", 
+      "prix: 10 credits",
       "energy :essence",
-      "driving: moyen",
+      "avis: moyen",
       "note: 3",
-      "places disponibles : 3"
+      "places disponibles : seat1, seat2, seat3"
       ],
       "options": ["electrique", "essence"],
       "answer": "essence",
       "energy" : "essence"
     },
     {
-      "question": [" De: Paris, 75015 gare Montparnasse",
+      "question": 
+      [" De: Paris, 75015 gare Montparnasse",
       "A: Deauville, 14200 gare de Deauville-Trouville ",
-      "daydepart : jeudi :O7h00",
-      "dayarrivee : jeudi: 10h30",
-      "time: 03h30", 
-      "price: 10 credits",
+      "depart : jeudi :O7h00",
+      "arrivee : jeudi: 10h30",
+      "duree: 03h30", 
+      "prix: 10 credits",
       "energy :essence",
-      "driving: moyen",
+      "avis: moyen",
       "note: 3",
-      "places disponibles : 3"
+      "places disponibles : seat1, seat2, seat3"
       ],
       "options": ["electrique", "essence"],
       "answer": "essence",
       "energy" : "essence"
     },
     {
-        "question": ["De: Paris, 75015 gare Montparnasse",
+        "question": 
+        ["De: Paris, 75015 gare Montparnasse",
         "A: Amboise, 37400 gare de Amboise ",
-        "daydepart : jeudi :O7h00",
-        "dayarrivee : jeudi: 10h30",
-        "time: 02h30", 
-        "price: 7 credits",
+        "depart : jeudi :O7h00",
+        "arrivee : jeudi: 10h30",
+        "duree: 02h30", 
+        "prix: 7 credits",
         "energy :essence",
-        "driving: bon",
+        "avis: bon",
         "note: 4",
-        "places disponibles : 3"
+        "places disponibles : seat1, seat2, seat3"
         ],
        "options": ["electrique", "essence"],
       "answer": "essence",

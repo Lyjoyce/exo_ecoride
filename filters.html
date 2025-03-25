@@ -31,6 +31,7 @@
     </div>
     <div id="result"></div>
     <!--<div id="energy-container"></div>-->
+    <!--
     <h2>JavaScript Alert</h2>
 
 <button onclick="myFunction()">Try it</button>
@@ -40,28 +41,57 @@ function myFunction() {
   alert("I am an alert box!");
 }
 </script>
+-->
 
-<h2>JavaScript Validation</h2>
+<!--
+//FORM
+<head>
+    <script>
+    function validateForm() {
+      let x = document.forms["myForm"]["fname"].value;
+      if (x == "") {
+        alert("Name must be filled out");
+        return false;
+      }
+    }
+    </script>
+    </head>
+    <body>
+    
+    <h2>JavaScript Validation</h2>
+    
+    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+      Name: <input type="text" name="fname">
+      <input type="submit" value="Submit">
+    </form>
+    
+    //PSW
+    <div class="container">
+    <h1>Register</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
 
-<p>Enter a number and click OK:</p>
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
 
-<input id="id1" type="number" min="1" max="1" required>
-<button onclick="myFunction()">OK</button>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
 
-<p>If the number is not 1, an error message will be displayed.</p>
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+    <hr>
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
 
-<p id="demo"></p>
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+  
+  <div class="container signin">
+    <p>Already have an account? <a href="#">Sign in</a>.</p>
+  </div>
+</form>-->
 
-<script>
-function myFunction() {
-  const inpObj = document.getElementById("id1");
-  if (!inpObj.checkValidity()) {
-    document.getElementById("demo").innerHTML = inpObj.validationMessage;
-  } else {
-    document.getElementById("demo").innerHTML = "Input OK";
-  } 
-} 
-</script>
+
+
 
     <script src="filters.js"></script>
 </body>

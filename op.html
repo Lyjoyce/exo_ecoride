@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<!--
+    <h1>JavaScript Operators</h1>
+<h2>The - Operator</h2>
+<label for="">
+   
+</label>
+
+<p>disponibility = 3, calculate reservation = disponibility - 1:</p>
+je réserve:
+<input id="reservation" type="number" min="1" max="1" required placeholder="reservation">
+<button onclick="myFunction()">OK</button>
+<p id="disponibility"></p>
+
+<script>
+let disponibility = 3;
+let reservation = disponibility - 1;
+document.getElementById("disponibility").innerHTML = "places disponibles restantes :  " + reservation;
+</script>
+
+
+<h2>JavaScript Validation</h2>
+<p id="disponibility"></p>
+<p>réserver 1 place et click OK:</p>
+
+<input id="id1" type="number" min="1" max="1" required>
+<button onclick="myReserv()">OK</button>
+
+<script>
+    function myReserv() {
+        let disponibility = 3;
+        let reservation = disponibility - 1;
+
+        if(reservation = disponibility - 1){
+            document.getElementById("disponibility").innerHTML = "places disponibles restantes :  " + reservation;
+        }else{
+            document.getElementById("disponibility").innerHTML = "reservation OK";
+        }
+    }
+    </script>
+
+<h1>JavaScript Operators</h1>
+<h2>The -- Operator</h2>
+
+<p>reservation = 0, calculate mySeatReserved = reservation++:</p>
+
+<p> <input id="mySeatReserved" type="number" min="1" max="1" required></p>
+<button onclick="myReserv()">OK</button>
+
+
+<p id="reservation" type="number" min="1" max="3" required>
+     </p>
+
+<p> y is decremented after it is assigned to x (post-decremented).</p>.
+
+<script>
+ function myReserv() {
+let mySeatReserved = 0;
+let reservation = mySeatReserved++;
+
+if(reservation = mySeatReserved++){
+    document.getElementById("mySeatReserved").innerHTML = "Ma place réservée: " +mySeatReserved;
+            //document.getElementById("disponibility").innerHTML = "places disponibles restantes :  " + reservation;
+        }else{
+            document.getElementById("reservation").innerHTML = "Nombre de réservation: " + reservation;
+            //document.getElementById("disponibility").innerHTML = "reservation OK";
+        }
+    }
+
+document.getElementById("mySeatReserved").innerHTML = "Ma place réservée: " +mySeatReserved;
+document.getElementById("reservation").innerHTML = "Nombre de réservation: " + reservation;
+</script>
+
+<h1>JavaScript Operators</h1>
+<h2>The ++ Operator</h2>
+
+<p>a = 0, calculate b = a++:</p>
+<p>c = 0, calculate d = c++:</p>
+<p>e = 0, calculate f = e++:</p>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+<p id="demo5"></p>
+<p id="demo6"></p>
+
+<p><strong>Note:</strong> y is incremented after it is assigned to x (post-incremented).</p>.
+
+<script>
+let a = 0;
+let b = a++;
+document.getElementById("demo1").innerHTML = "Value of a: " + a;
+document.getElementById("demo2").innerHTML = "Value of b: " + b;
+
+let c = 1;
+let d = c++;
+document.getElementById("demo3").innerHTML = "Value of c: " + c;
+document.getElementById("demo4").innerHTML = "Value of d: " + d;
+
+let e = 2;
+let f = e++;
+document.getElementById("demo5").innerHTML = "Value of e: " + e;
+document.getElementById("demo6").innerHTML = "Value of f: " + f;
+</script>
+
+<h1>JavaScript Arrays</h1>
+<h2>The map() Method</h2>
+
+<p>Create a new array by performing a function on each array element:</p>
+
+<p id="userecoride"></p>
+
+<script>
+const names = "Lou Zoe Tom Eliot";
+const seat = names.map(mySeat);
+
+function mySeat() {
+let text = "";
+for (let seat = 1; seat < 4; seat++) {
+  if (seat === 4) { break; }
+  text += "Vous êtes le participant " + seat + "<br>";
+}
+//document.getElementById("seat1").innerHTML = text;
+ // return value +1;
+document.getElementById("userecoride").innerHTML = seat;
+}
+</script>
+-->
+<!--BOUCLE FOR-->
+<h2>Validation</h2>
+
+<p id="seat1"></p> 
+<button onclick="mySeat1()">SEAT1 : 12 crédits</button>
+<p id="12pay1"></p> 
+
+<p id="seat2"></p> 
+<button onclick="mySeat2()">SEAT2 : 12 crédits</button>
+<p id="12pay2"></p> 
+
+<p id="seat3"></p>
+<button onclick="mySeat3()">SEAT3 : 12 crédits</button>
+<p id="12pay3"></p>
+
+<script>
+     function mySeat1() {
+let text = "";
+for (let seat1 = 1; seat1 < 2; seat1++) {
+  if (seat1 === 2) { break; }
+  text += "Vous êtes le participant" + seat1 + "<br>";
+}
+document.getElementById("seat1").innerHTML = text;
+document.getElementById("12pay1").innerHTML = "<button onclick=>payer SEAT1 : 12 credits</button>" ;
+     }
+
+     function mySeat2() {
+let text = "";
+for (let seat2 = 2; seat2 < 3; seat2++) {
+  if (seat2 === 3) { break; }
+  text += "Vous êtes le participant " + seat2 + "<br>";
+}
+document.getElementById("seat2").innerHTML = text;
+document.getElementById("12pay2").innerHTML = "<button onclick=>payer SEAT2 : 12 credits</button>" ;
+     }
+     function mySeat3() {
+let text = "";
+for (let seat3 = 3; seat3 < 4; seat3++) {
+  if (seat3 === 4) { break; }
+  text += "Vous êtes le participant " + seat3 + "<br>";
+}
+document.getElementById("seat3").innerHTML = text;
+document.getElementById("12pay3").innerHTML = "<button onclick=>payer SEAT3 : 12 credits</button>" ;
+     }
+</script>
+
+<h2>Crédit confirmation</h2>
+    <p>Confirmer le credit:</p>
+
+    <input id="id12" type="number" min="12" max="12" required>
+    <button onclick="checkCredits()">OK</button>
+    <p id="checkPrice"></p>
+
+    <script>
+    function checkCredits() {
+      const CREDIT = document.getElementById("id12");
+      if (!CREDIT.checkValidity()) {
+        document.getElementById("checkPrice").innerHTML = CREDIT.validationMessage;
+      } else {
+        document.getElementById("checkPrice").innerHTML = "CREDIT OK";
+      } 
+    } 
+    </script>
+
+<h2>Ticket de confirmation</h2>
+
+<input type="emailseat1" placeholder="votre email seat1" required>
+<p id="carloopseat"></p>
+
+<script>
+let text1 = "emailseat1";
+let text2 = "carloop-id :";
+let text3 = "seat1";
+let text4 = text1 + " " + text2 + "" + text3;
+document.getElementById("carloopseat").innerHTML = text4;
+</script>
+
+<h2>ANNULER SEAT </h2>
+
+
+<p id="seat1re"></p> 
+<button onclick="mySeat1re()">ANNULER SEAT1 : -12 crédits</button>
+<p id="12pay1re"></p> 
+
+<p id="seat2re"></p> 
+<button onclick="mySeat2re()">ANNULER SEAT2 : -12 crédits</button>
+<p id="12pay2re"></p> 
+
+<p id="seat3re"></p>
+<button onclick="mySeat3re()">ANNULER SEAT3 : -12 crédits</button>
+<p id="12pay3re"></p>
+
+<script>
+     function mySeat1re() {
+let text = "";
+for (let seat1re = 1; seat1re < 2; seat1re++) {
+  if (seat1re === 2) { break; }
+  text += "Vous n'êtes plus participant" + seat1re + "<br>";
+}
+document.getElementById("seat1re").innerHTML = text;
+document.getElementById("-12payre").innerHTML = "<button onclick=>payer SEAT1 : -12 credits</button>" ;
+     }
+
+     function mySeat2re() {
+let text = "";
+for (let seat2re = 2; seat2re < 3; seat2re++) {
+  if (seat2re === 3) { break; }
+  text += "Vous n'êtes plus participant " + seat2re + "<br>";
+}
+document.getElementById("seat2re").innerHTML = text;
+document.getElementById("-12pay2").innerHTML = "<button onclick=>payer SEAT2 : -12 credits</button>" ;
+     }
+     function mySeat3re() {
+let text = "";
+for (let seat3re = 3; seat3re < 4; seat3re++) {
+  if (seat3re === 4) { break; }
+  text += "Vous n'êtes plus participant " + seat3re + "<br>";
+}
+document.getElementById("seat3re").innerHTML = text;
+document.getElementById("-12pay3").innerHTML = "<button onclick=>payer SEAT3 :-12 credits</button>" ;
+     }
+</script>
+
+<h2>Rembourser Crédit </h2>
+    <p>Annuler le credit:</p>
+
+    <input id="id-12" type="number" min="-12" max="-12" required>
+    <button onclick="checkReCredits()">OK</button>
+    <p id="annulerPrice"></p>
+
+    <script>
+    function checkReCredits() {
+      const RECREDIT = document.getElementById("id-12");
+      if (!RECREDIT.checkValidity()) {
+        document.getElementById("annulerPrice").innerHTML = RECREDIT.validationMessage;
+      } else {
+        document.getElementById("annulerPrice").innerHTML = "RECREDIT OK";
+      } 
+    } 
+    </script>
+
+</body>
+</html>
